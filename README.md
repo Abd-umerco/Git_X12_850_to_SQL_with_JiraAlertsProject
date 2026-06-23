@@ -1,0 +1,2 @@
+# Package Name : Git_X12_850_to_SQL_with_JiraAlertsProject
+This is a webMethods package and requires a webMethods Integration Server to host it. Package versioning and configuration can be found in the package [manifest](./Git_X12_850_to_SQL_with_JiraAlertsProject/manifest.v3) file. Service and API documentation is available on the package's home page http://&lt;server&gt;:&lt;port&gt;/&lt;packagename>.
