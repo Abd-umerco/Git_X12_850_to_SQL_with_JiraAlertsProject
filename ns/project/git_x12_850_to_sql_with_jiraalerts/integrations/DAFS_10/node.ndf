@@ -35,7 +35,7 @@
           <value name="field_name">a</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
-          <array name="field_options" type="value" depth="1">
+          <array name="field_options" type="record" depth="1">
           </array>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
@@ -54,7 +54,7 @@
           <value name="field_name">b</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
-          <array name="field_options" type="value" depth="1">
+          <array name="field_options" type="record" depth="1">
           </array>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
@@ -93,7 +93,7 @@
           <value name="field_name">c</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
-          <array name="field_options" type="value" depth="1">
+          <array name="field_options" type="record" depth="1">
           </array>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
@@ -117,9 +117,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">abdur.atif@umerco.com</value>
-    <value name="createdDate">1782336544088</value>
-    <value name="lastModifiedDate">1782336544088</value>
+    <value name="lastModifiedBy">abdur.atif@umerco.com</value>
+    <value name="lastModifiedDate">1782337292901</value>
     <value name="displayName">DAFS_10</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -140,6 +139,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
@@ -153,6 +153,7 @@
           <value name="groupName">string</value>
           <value name="groupDisplayName">String</value>
         </record>
+        <value name="nodePathForDebug">0.0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -173,6 +174,18 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
+      </record>
+      <null name="/2"/>
+      <null name="/2/0"/>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <value name="itemType">SERVICES</value>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">http</value>
+          <value name="serviceName">pub.client:http</value>
+          <value name="transformerSupport">true</value>
+        </record>
       </record>
     </record>
   </record>
