@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP NAME="TRANSFORM" TIMEOUT="" MODE="STANDALONE">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/aa;1;0" TO="/bb;1;0">
+</MAPCOPY>
+</MAP>
+</FLOW>
