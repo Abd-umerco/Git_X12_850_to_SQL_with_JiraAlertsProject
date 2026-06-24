@@ -9,18 +9,20 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmB2BProvider">12.0.0.0.80</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">9</value>
+  <value name="build">10</value>
   <null name="description"/>
   <value name="created_date">23-06-2026 20:34:57 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-06-24T21:41:33.34329267Z</value>
+  <value name="lastUpdated">2026-06-24T21:49:50.03822246Z</value>
   <value name="wmProjectId">fl7b610d347f0242b6a7cdb10ea72e3dae</value>
   <value name="creator">M Abdur Rehman Atif</value>
 </Values>
