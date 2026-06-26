@@ -18,12 +18,6 @@ services:
     version: "1.0"
   - name: WmB2BProvider
     version: 12.0.0.0.80
-- serviceName: project.git_x12_850_to_sql_with_jiraalerts.integrations:new_flowservice11
-  packages:
-  - name: Git_X12_850_to_SQL_with_JiraAlertsProject
-    version: "1.0"
-  - name: WmB2BProvider
-    version: 12.0.0.0.80
 - serviceName: project.git_x12_850_to_sql_with_jiraalerts.integrations:new_flowservice121
   packages:
   - name: Git_X12_850_to_SQL_with_JiraAlertsProject
